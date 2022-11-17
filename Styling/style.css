@@ -1,0 +1,303 @@
+    body {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    /* ALL HTML PAGES */
+    /* CSS for header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f1e3e3;
+      height: 50px;
+    }
+
+    .header .logo {
+      font-size: 25px;
+      color: rgb(155, 85, 85);
+      text-decoration: none;
+      margin-left: 30px;
+      font-weight: bold;
+      font-family: 'Lato', sans-serif;
+
+    }
+
+    .nav-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #f1e3e3;
+      height: 50px;
+      margin-right: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: #000;
+      padding: 35px 20px;
+      font-family: 'Lato', sans-serif;
+    }
+
+    /* For Home Page */
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 632px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../Images/Background.JPG");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .intro h1 {
+      font-size: 60px;
+      color: rgb(255, 255, 255);
+      font-weight: bolder;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .intro p {
+      font-size: 20px;
+      color: #d1d1d1;
+      text-transform: uppercase;
+      margin: 20px 0;
+      font-family: 'Lato', sans-serif;
+    }
+
+    .intro input {
+      background-color: #5edaf0;
+      color: #000;
+      margin: 20px 0;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+    }
+
+    .achievements {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 80px;
+    }
+
+    .achievements .work {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .achievements .work i {
+      width: fit-content;
+      font-size: 50px;
+      color: #333333;
+      border-radius: 50%;
+      border: 2px solid #333333;
+      padding: 12px;
+    }
+
+    .achievements .work .work-heading {
+      font-size: 20px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .achievements .work .work-text {
+      font-size: 15px;
+      color: #585858;
+      margin: 10px 0;
+    }
+
+    /* FOR GAME */
+    #pixelpad-embed {
+      /*padding: 15px 290px;*/
+      /* display: flex;
+      flex-direction: row;
+      align-items: center; */
+    }
+
+    #iframe {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    /* FOR LETTER AND STORY HOME PAGE */
+    .intro-subpages {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 200px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../Images/Background.JPG");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .intro-subpages h1 {
+      font-size: 60px;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+  #subpage-cards {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .subpage-card{
+    font-family: Lato, sans-serif;
+    border-radius: 10px;
+    font-size: 16pt;
+    margin: 20px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(black, rgb(44, 44, 44));
+  }
+
+  .subpage-card a {
+    text-decoration: none;
+    color:white;
+  }
+  
+    /* FOR VIDEO PAGES */
+    .vid-title{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;    
+    }
+
+    .vid-desc{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;   
+      font-family: 'Lato', sans-serif;
+      margin: 20px 20px 40px 20px;
+    }
+
+    .vid{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;   
+    }
+
+    #about-subpages-desc {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;  
+      font-family: 'Lato', sans-serif;
+      font-weight: 50;
+      margin: 50px 100px;
+      font-size:larger;
+      text-align: left;
+      line-height: 1cm;
+    }
+
+    #hb {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;  
+      font-family: 'Lato', sans-serif;
+      margin: 30px;
+      font-size:larger;
+      text-align: center;
+      line-height: 1cm;
+    }
+
+    #letter-desc{
+      font-family: 'Lato', sans-serif;
+      font-weight: 50;
+      margin: 10px 100px;
+      font-size:larger;
+      text-align: left;
+      line-height: 1cm;
+    }
+
+    #b{
+      font-weight:bold;
+    }
+
+/*CARDS*/
+.card {
+  width: 150px;                 /* Set width of cards */
+  display: flex;                /* Children use Flexbox */
+  flex-direction: column;       /* Rotate Axis */
+  border: 1px solid #EF9A9A;    /* Set up Border */
+  border-radius: 4px;           /* Slightly Curve edges */
+  overflow: hidden;             /* Fixes the corners */
+  margin: 20px;                  /* Add space between cards */
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.card-header {
+  color: #D32F2F;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  border-bottom: 1px solid #EF9A9A;
+  background-color: #FFEBEE;
+  padding: 5px 10px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.card-main {
+  display: flex;              /* Children use Flexbox */
+  flex-direction: column;     /* Rotate Axis to Vertical */
+  justify-content: center;    /* Group Children in Center */
+  align-items: center;        /* Group Children in Center (on cross axis) */
+  padding: 15px 0;            /* Add padding to the top/bottom */
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.material-icons {
+  font-size: 36px;
+  color: #D32F2F;
+  margin-bottom: 5px;
+}
+
+.main-description {
+  color: #D32F2F;
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+#card-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;    /* Group Children in Center */
+  align-items: center;        /* Group Children in Center (on cross axis) */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;    /* Group Children in Center */
+  align-items: center;
+}
