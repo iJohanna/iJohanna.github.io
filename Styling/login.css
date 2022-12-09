@@ -33,12 +33,13 @@
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background-color: #F8C4B4;
+  background-color: rgb(253, 182, 120);
   width: 100%;
   border: 0;
   padding: 15px;
   color: black;
   font-size: 14px;
+  font-weight: bold;
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
   cursor: pointer;
@@ -61,7 +62,8 @@
 }
 
 body {
-  background-color: #FF8787;
+  /* background-color: #FF8787; */
+  background-color: peachpuff;
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
