@@ -1,9 +1,6 @@
-    body {
+   body {
       margin: 0;
       box-sizing: border-box;
-      background: rgb(255,255,255);
-      /*background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(229,140,138,1) 100%);*/
-      min-height: 100vh;
     }
 
     /* ALL HTML PAGES */
@@ -12,14 +9,13 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      /* background-color: rgb(155, 85, 85); */
+      background-color: #f1e3e3;
       height: 50px;
     }
 
     .header .logo {
       font-size: 25px;
-      color: black;
-      /* color: rgb(155, 85, 85); */
+      color: rgb(155, 85, 85);
       text-decoration: none;
       margin-left: 30px;
       font-weight: bold;
@@ -31,8 +27,7 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
-      /* background-color: #f1e3e3; */
-      /* background-color: rgb(155, 85, 85); */
+      background-color: #f1e3e3;
       height: 50px;
       margin-right: 20px;
     }
@@ -60,7 +55,7 @@
 
     .intro h1 {
       font-size: 60px;
-      color: black;
+      color: rgb(255, 255, 255);
       font-weight: bolder;
       text-transform: uppercase;
       margin: 0;
@@ -155,7 +150,7 @@
 
     .intro-subpages h1 {
       font-size: 60px;
-      color: black;
+      color: #fff;
       font-weight: bold;
       text-transform: uppercase;
       margin: 0;
@@ -186,7 +181,12 @@
     text-decoration: none;
     color:white;
   }
-  
+
+   a:hover {
+      color: black;
+      font-weight: bold;
+    }
+
     /* FOR VIDEO PAGES */
     .vid-title{
       display: flex;
@@ -214,7 +214,7 @@
       align-items: center;  
       font-family: 'Lato', sans-serif;
       font-weight: 50;
-      margin: 50px 50px;
+      margin: 50px 100px;
       font-size:larger;
       text-align: left;
       line-height: 1cm;
@@ -244,11 +244,6 @@
       font-weight:bold;
     }
 
-    a:hover {
-      color: white;
-      font-weight: bold;
-    }
-
 /*CARDS*/
 .card {
   width: 150px;                 /* Set width of cards */
@@ -262,18 +257,13 @@
 
 }
 
-.card a:hover {
-  color: black;
-}
-
 .card-header {
   color: #D32F2F;
   text-align: center;
   font-size: 12px;
   font-weight: 600;
   border-bottom: 1px solid #EF9A9A;
-  /* background-color: #FFEBEE; */
-  background-color: white;
+  background-color: #FFEBEE;
   padding: 5px 10px;
   font-family: 'Open Sans', sans-serif;
 
